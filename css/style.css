@@ -2,6 +2,12 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+h2, h3 {
+  font-weight: bolder;
+}
+h1 {
+  font-weight: bold;
+}
 .navbar-nav .nav-item a:active {
   color: #59981a;
 }
@@ -106,17 +112,16 @@ body {
 
 footer .container-fluid {
   color: #fff;
-  background: url("/img/background.jpg") no-repeat center center/cover;
-  opacity: 0.8;
-  padding: 25px;
+  background-color: #81b622;
+  padding: 15px;
 }
 
-footer .container-fluid a {
+footer .container-fluid a, #menu a {
   color: #fff;
 }
 
 footer .footer-copyright {
-  background-color: #81b622;
+  background-color: #638b1a;
   color: #fff;
 }
 
@@ -129,7 +134,7 @@ footer .footer-copyright a {
 }
 
 footer .top-nav .fab {
-  padding: 0 20px 0 0;
+  padding: 10px 20px 0 0;
 }
 
 footer .menu ul li a {
@@ -139,7 +144,8 @@ footer .menu ul li a {
 /* Contact US */
 section#contact .container-fluid,
 section#about .container-fluid,
-section#services .container-fluid {
+section#services .container-fluid,
+section#services-section .container-fluid {
   color: #fff;
   background: url("/img/pages/branch-conifer-green-40896.jpg") no-repeat center
     center/cover;
@@ -175,9 +181,11 @@ section.why-blissful .jumbotron {
 }
 
 section.our-team .jumbotron {
-  /* background:#B2D2A4; */
-  /* color: #fff; */
   height: 550px;
+}
+
+section.our-team .jumbotron img {
+  margin-top: 25px;
 }
 
 .clients .container span i {
